@@ -1,0 +1,10 @@
+digraph {
+	web_search
+	retrieve
+	grade_documents
+	generate
+	transform_query
+	retrieve -> grade_documents
+	transform_query -> retrieve
+	web_search -> generate
+}
